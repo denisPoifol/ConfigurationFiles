@@ -1,0 +1,8 @@
+[user]
+	name = Denis Poifol
+	email = denis.poifol@gmail.com
+[alias]
+	s = status
+	f = fetch
+	p = pull
+	a = add -p
