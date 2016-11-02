@@ -1,8 +1,24 @@
 [user]
 	name = Denis Poifol
 	email = denis.poifol@gmail.com
+[color]
+	diff = auto
+	branch = auto
+	interactive = auto
+[push]
+	default = simple
+[credential]
+	helper = cache
+[rerere]
+	enabled = false
+[rebase]
+	autoStash = true
+	autoSquash = true
+	missingCommitsCheck = warn
 [alias]
+	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	a = add -p
 	s = status
 	f = fetch
+	c = commit
 	p = pull
-	a = add -p
