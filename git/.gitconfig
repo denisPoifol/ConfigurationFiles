@@ -7,8 +7,12 @@
 	interactive = auto
 [push]
 	default = simple
+[pull]
+	rebase = true
 [credential]
 	helper = cache
+[merge]
+	conflictstyle = diff3
 [rerere]
 	enabled = false
 [rebase]
@@ -22,3 +26,6 @@
 	f = fetch
 	c = commit
 	p = pull
+	cs = commit -m \"Commited stash do not push\"
+	amend = commit --amend
+	fixup = commit --fixup
