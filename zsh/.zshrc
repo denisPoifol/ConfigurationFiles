@@ -92,3 +92,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+bind '"^[[A":history-search-backward'
+bind '"^[[B":history-search-forward'
