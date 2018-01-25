@@ -22,3 +22,11 @@
 	f = fetch
 	c = commit
 	p = pull
+	stub = commit -m \"Commited stubs do not push\"
+	fstub = commit -m \"fixup! Commited stubs do not push\"
+	fcs = commit -m \"fixup! Commited stash do not push\"
+	cs = commit -m \"Commited stash do not push\"
+	cword = commit -m \"Update wording\"
+	fcword = commit -m \"fixup! Update wording\"
+	amend = commit --amend
+	fixup = commit --fixup
