@@ -5,6 +5,8 @@
 	diff = auto
 	branch = auto
 	interactive = auto
+[merge]
+	conflictstyle = diff3
 [push]
 	default = simple
 [credential]
